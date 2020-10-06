@@ -7,7 +7,6 @@
     --Lexend:'Lexend_Deca',cursive;
     --Livvic:'Livvic',cursive;
 
-
     --text-grey:#3f4954;
     --text-light:rgba(102, 136, 102, 0.714);
     --bg-color:#0f0f0f;
@@ -82,7 +81,6 @@ button.btn
 
 }
 
-
 /* navbar */
 
 .what
@@ -94,7 +92,7 @@ button.btn
 .nav{
     background-color: white;
     padding: 0 1vw;
-    height: 100px;
+    /* height: 100px; */
     overflow: hidden;
     box-shadow: 0px 7px 20px skyblue !important ;
     position: fixed; 
@@ -102,8 +100,6 @@ button.btn
    backface-visibility: none;
    z-index: 9;
 
-  
-    
 }
 
 .logo
@@ -123,9 +119,6 @@ button.btn
     font-size: 1.6rem;
     float:left;
     
-    
-    
-
     /* text-decoration: none; */
 }
 
@@ -205,7 +198,6 @@ button.btn
 
 /* site title */
 
-
 .cover .site-title
 {
     height:55vw;
@@ -240,7 +232,6 @@ h1,h3{
     display: block;
     font-size:3.5vw;
     
-    
 }
 .amazing
 {
@@ -265,7 +256,6 @@ main .site-background .btn:hover
     color: white;
 }
 
-
 main .art{
     background: url('../images/Abract01.png');
     background-repeat: no-repeat;
@@ -276,8 +266,6 @@ main .art{
     background-blend-mode: var(--white);
     background-size:cover;
 }
-
-
 
 main .art-post
 {
@@ -324,7 +312,6 @@ section .container .owl-nav
     margin: 0px auto;
     width:100%;
     
-
 }
 .owl-navigation
 {
@@ -438,7 +425,6 @@ main .post-content .post-title .post-btn
     background-color: skyblue;
 }
 
-
 /* main sectin close */
 /* footer section  */
 /* footer section xxxxx */
@@ -514,10 +500,6 @@ footer.footer .rights a
     color: white;
 }
 
-
-
-
-
 .blur
 {
     position: fixed;
@@ -541,8 +523,6 @@ footer.footer .rights a
     height:auto;
     margin:10px auto;
 
-    
-    
 }
 .close
 {
@@ -587,14 +567,11 @@ footer.footer .rights a
 {
     width:90%;
    
-   
 }
 .loader img
 {
     width: 100%;
 }
-
-
 
 /* media query */
 @media screen and ( max-width:1000px )
@@ -631,9 +608,6 @@ footer.footer .rights a
     footer.footer .container
     {grid-template-columns: 100%}
 
-    
-  
-    
 main .site-title h1,h3{
     margin: 1.4rem;
     font-size: 2.5rem;
@@ -671,7 +645,4 @@ main .site-title h1,h3{
     
 }
 
-    
-
 }
-
