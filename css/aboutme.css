@@ -108,7 +108,7 @@ body
 .container
 {
     color: grey;
-      margin-top: 100px !important;
+      /* margin-top: 100px !important; */
     text-align: center;
     min-height: 400px;
 }
@@ -128,7 +128,7 @@ body
 
 .home
 {
-    margin:100px auto;
+    margin: 0 auto;
     display: grid;
     background: url("../ch.jpg") ;
     background-position: center;
@@ -139,7 +139,7 @@ body
 }
 .name
 {
-    margin:0 auto;
+    margin:100px auto;
     display: flex;
     flex-direction: column;
     
